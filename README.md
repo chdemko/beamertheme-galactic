@@ -3,14 +3,14 @@
 Usage:
 
 ~~~latex
-\usetheme{GALACTIC}
+\usetheme{galactic}
 \usepackage{DejaVuSans}
 ~~~
 
 or use this option:
 
 ~~~latex
-\usetheme[pagenumber]{GALACTIC}
+\usetheme[pagenumber]{galactic}
 \usepackage{DejaVuSans}
 ~~~
 
