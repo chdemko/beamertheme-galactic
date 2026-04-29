@@ -1,0 +1,70 @@
+% Copyright 2026 by The GALACTIC Organization
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the BSD 3-Clause License.
+%
+
+\definecolor{GALACTIC_MainBlue}{HTML}{283248}
+\definecolor{GALACTIC_MainOrange}{HTML}{FEA263}
+\definecolor{GALACTIC_LightOrange}{HTML}{FFB481}
+\definecolor{GALACTIC_DarkOrange}{HTML}{AE4F41}
+
+\setbeamercolor{structure}{fg=GALACTIC_MainBlue}
+\setbeamercolor{alerted text}{fg=GALACTIC_DarkOrange}
+\setbeamercolor{example text}{fg=GALACTIC_LightOrange}
+
+\setbeamercolor{block title}{use=structure,fg=white,bg=structure.fg}
+\setbeamercolor{block title alerted}{use=alerted text,fg=white,bg=alerted text.fg}
+\setbeamercolor{block title example}{use=example text,fg=GALACTIC_MainBlue,bg=example text.fg}
+
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!20!bg}
+\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!20!bg}
+\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=block title example.bg!20!bg}
+
+\usebeamercolor{block title}
+\colorlet{blocktitlefgsave}{block title.fg}
+\colorlet{blocktitlebgsave}{block title.bg}
+\usebeamercolor{normal text}
+\usebeamercolor{block body}
+\colorlet{blockbodyfgsave}{block body.fg}
+\colorlet{blockbodybgsave}{block body.bg}
+\usebeamercolor{normal text}
+\usebeamercolor{item}
+\colorlet{blockitembgsave}{item.bg}
+\usebeamercolor{normal text}
+\usebeamercolor{qed symbol}
+\colorlet{blockqedsave}{qed symbol.bg}
+\usebeamercolor{normal text}
+
+\usebeamercolor{block title example}
+\colorlet{exblocktitlefgsave}{block title example.fg}
+\colorlet{exblocktitlebgsave}{block title example.bg}
+\usebeamercolor{normal text}
+\usebeamercolor{block body example}
+\colorlet{exblockbodyfgsave}{block body example.fg}
+\colorlet{exblockbodybgsave}{block body example.bg}
+\usebeamercolor{normal text}
+
+% structure
+\setbeamercolor{palette primary}{use=structure,fg=white,bg=structure.fg}
+\setbeamercolor{palette secondary}{use=structure,fg=white,bg=structure.fg!75!black}
+\setbeamercolor{palette tertiary}{use=structure,fg=white,bg=structure.fg!50!black}
+\setbeamercolor{palette quaternary}{fg=black,bg=GALACTIC_LightOrange}
+
+\setbeamercolor{sidebar}{use=structure,bg=structure.fg}
+
+\setbeamercolor{palette sidebar primary}{use=structure,fg=structure.fg!10}
+\setbeamercolor{palette sidebar secondary}{fg=white}
+\setbeamercolor{palette sidebar tertiary}{use=structure,fg=structure.fg!50}
+\setbeamercolor{palette sidebar quaternary}{fg=white}
+
+\setbeamercolor{subtitle}{fg=GALACTIC_MainOrange}
+\setbeamercolor{separation line}{}
+\setbeamercolor{fine separation line}{}
+
+\setbeamercolor{title in head/foot}{bg=GALACTIC_LightOrange,fg=white!30!black}
+\setbeamercolor{author in head/foot}{bg=GALACTIC_MainBlue,fg=white}
+\setbeamercolor{frametitle}{fg=GALACTIC_DarkOrange}
+\setbeamercolor{framesubtitle}{fg=GALACTIC_MainOrange}

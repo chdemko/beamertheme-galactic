@@ -1,0 +1,88 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{hyperref}
+
+\title{beamerthemeGALACTIC}
+\author{The GALACTIC Organization}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\texttt{beamerthemeGALACTIC} is a theme for the \texttt{beamer} class designed to create
+clean and modern presentations for the GALACTIC Organization.
+
+\section{Installation}
+
+To use this theme, place the theme files in a directory accessible to \LaTeX{} or in the same folder as your document.
+
+\section{Usage}
+
+Load the theme in your document using:
+
+\begin{verbatim}
+\documentclass{beamer}
+\usetheme{GALACTIC}
+\usepackage{DejaVuSans}
+\end{verbatim}
+
+\section{Options}
+
+The theme provides one option:
+
+\subsection{\texttt{pagenumber}}
+
+This option controls whether page numbers are displayed in the footer.
+
+\begin{itemize}
+  \item \texttt{pagenumber=true} : displays page numbers
+  \item \texttt{pagenumber=false} : hides page numbers
+\end{itemize}
+
+Example usage:
+
+\begin{verbatim}
+\usetheme[pagenumber=true]{GALACTIC}
+\end{verbatim}
+
+The default value is:
+
+\begin{verbatim}
+pagenumber=false
+\end{verbatim}
+
+\section{Minimal Example}
+
+\begin{verbatim}
+\documentclass{beamer}
+
+\usetheme[pagenumber=true]{GALACTIC}
+\usepackage{DejaVuSans}
+
+\title{Title}
+\author{Author}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Example}
+Slide content
+\end{frame}
+
+\end{document}
+\end{verbatim}
+
+As example, The output of \texttt{example.tex} gives the \texttt{example.pdf} file.
+\section{License}
+
+This theme is distributed under the under the LaTeX Project Public License and/or
+the BSD 3-Clause License.
+
+\end{document}

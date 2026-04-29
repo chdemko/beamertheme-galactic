@@ -1,0 +1,28 @@
+% Copyright 2026 by The GALACTIC Organization
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the BSD 3-Clause License.
+%
+
+\def\BTGALACTIC@version{v0.1.0}
+\def\BTGALACTIC@date{2026/04/27}
+\ProvidesPackage{beamerthemeGALACTIC}[\BTGALACTIC@date\space\BTGALACTIC@version\space GALACTIC Beamer Theme]
+
+\DeclareOptionBeamer{pagenumber}[]{\setbeamertemplate{page number in head/foot}[totalframenumber]}
+
+\mode<presentation>
+
+\useinnertheme{rounded}
+\useoutertheme{GALACTIC}
+\usecolortheme{GALACTIC}
+\usefonttheme{GALACTIC}
+
+%\setbeamertemplate{itemize items}[triangle]
+%\setbeamertemplate{bibliography items}[triangle]
+
+\ProcessOptionsBeamer
+
+\mode<all>
+
