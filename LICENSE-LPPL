@@ -16,8 +16,9 @@ The Current Maintainer of this work is The GALACTIC Organization.
 
 This work consists of the files
 
-- beamercolorthemeGALACTIC.sty
-- beamerfontthemeGALACTIC.sty
-- beamerouterthemeGALACTIC.sty
-- beamerthemeGALACTIC.sty
+- beamercolorthemegalactic.sty
+- beamerfontthemegalactic.sty
+- beamerouterthemegalactic.sty
+- beamerthemegalactic.sty
+- logo-galactic.svg
 
